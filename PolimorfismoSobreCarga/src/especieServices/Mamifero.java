@@ -1,4 +1,4 @@
-package services;
+package especieServices;
 
 public class Mamifero extends Animal{
 	
