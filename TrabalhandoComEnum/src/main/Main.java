@@ -21,7 +21,21 @@ public class Main {
 		imprimeEnum(sexta);
 		imprimeEnum(sabado);
 		imprimeEnum(domingo);
-
+		
+		System.out.println();		
+		System.out.println("Utilizando método values");
+		
+		DiaSemana[] dias = DiaSemana.values();
+		
+		for(DiaSemana dia : DiaSemana.values()) {
+			System.out.println(dia);
+		}
+		
+		System.out.println();		
+		System.out.println("Utilizando método valueOf");
+		
+		DiaSemana dia = DiaSemana.valueOf(DiaSemana.class, "SEGUNDA");
+		System.out.println(dia);	
 	}
 
 	private static void imprimeEnum(DiaSemana dia) {
