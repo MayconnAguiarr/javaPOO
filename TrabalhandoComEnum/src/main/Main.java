@@ -5,7 +5,7 @@ import trabalhandoComEnum.DiaSemana;
 public class Main {
 
 	public static void main(String[] args) {
-
+	
 		DiaSemana segunda = DiaSemana.SEGUNDA;
 		DiaSemana terca = DiaSemana.TERCA;
 		DiaSemana quarta = DiaSemana.QUARTA;
@@ -28,27 +28,26 @@ public class Main {
 		switch (dia) {
 
 		case SEGUNDA:
-			System.out.println("Segunda-feira");
+			System.out.println(dia.toString() +" - "+ dia.getValor());
 			break;
 		case TERCA:
-			System.out.println("Terça-feira");
+			System.out.println(dia.toString() +" - "+ dia.getValor());
 			break;
 		case QUARTA:
-			System.out.println("Quarta-feira");
+			System.out.println(dia.toString() +" - "+ dia.getValor());
 			break;
 		case QUINTA:
-			System.out.println("Quinta-feira");
+			System.out.println(dia.toString() +" - "+ dia.getValor());
 			break;
 		case SEXTA:
-			System.out.println("Sexta-feira");
+			System.out.println(dia.toString() +" - "+ dia.getValor());
 			break;
 		case SABADO:
-			System.out.println("Sábado");
+			System.out.println(dia.toString() +" - "+ dia.getValor());
 			break;
 		case DOMINGO:
-			System.out.println("Domingo");
+			System.out.println(dia.toString() +" - "+ dia.getValor());
 			break;
 		}
 	}
-
 }
